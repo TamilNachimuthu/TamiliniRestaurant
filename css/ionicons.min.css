@@ -1,0 +1,48 @@
+
+@font-face {
+  font-family: "Ionicons";
+  src: url("../fonts/ionicons/fonts/ionicons.eot?v=4.0.0-19");
+  src: url("../fonts/ionicons/fonts/ionicons.eot?v=4.0.0-19#iefix") format("embedded-opentype"), url("../fonts/ionicons/fonts/ionicons.woff2?v=4.0.0-19") format("woff2"),
+    url("../fonts/ionicons/fonts/ionicons.woff?v=4.0.0-19") format("woff"), url("../fonts/ionicons/fonts/ionicons.ttf?v=4.0.0-19") format("truetype"),
+    url("../fonts/ionicons/fonts/ionicons.svg?v=4.0.0-19#Ionicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.ionicons,
+.fa-arrow-left:before,
+.ion-ios-arrow-down:before,
+.fa-arrow-right:before {
+  display: inline-block;
+  font-family: "Ionicons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-arrow-left:focus,.fa-arrow-right:focus{
+  border: unset;
+}
+.fa-arrow-left:before {
+  content: "\f060";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900; /* Font weight 900 for solid icons, 400 for regular icons */
+}
+.fa-arrow-down:before {
+  content: "\f063";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.fa-arrow-right:before {
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.testimony-section .owl-dots .owl-dot:focus{
+  outline: unset;
+}
